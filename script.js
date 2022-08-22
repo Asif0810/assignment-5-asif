@@ -11,6 +11,7 @@ function naming_Set(input) {
     olList.appendChild(listCreat);
 
 
+
 }
 
 
@@ -114,4 +115,8 @@ for (let i = 0; i < buttons.length; i++) {
         event.target.disabled = true;
     });
 }
-
+const idd = document.getElementsByTagName('li');
+if (idd > 4) {
+    alert("dont select ")
+}
+console.log(idd.length)
