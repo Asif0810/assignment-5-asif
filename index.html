@@ -13,11 +13,134 @@
 
 </head>
 
-<body>
-    <h1 class="hader">hellow to player</h1>
-    <h1 class="hader">hellow to player</h1>
-    <h1 class="hader">hellow to player</h1>
+<body class="contain">
+
+    <header>
+        <h1 class="headline text-center mt-5 ">
+            Select your favrite 5 footballer
+        </h1>
+    </header>
+    <main class="my-5 container">
+        <section>
+            <div class="d-flex">
+                <div class=mx-3>
+                    <div class="card bg-dark text-light border" style="width: 12rem;">
+                        <img src="image/NINTCHDBPICT000419425140.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 id="ronaldo" class="card-title">cristiano Ronaldo</h5>
+                            <p>Portugal</p>
+                            <a  style="padding-left: 30px ;padding-right:30px" href="#"  id="player1_btn "
+                                class=" btn btn-primary">
+                                Select
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mx-3">
+                    <div class="card bg-dark text-light border" style="width: 12rem;">
+                        <img src="image/Barcelona-celeb-Lionel-Messi2_2855586.jpg" class="card-img-top messi_height"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 id="messi" class="card-title">Leo Messi</h5>
+                            <p>Argentina</p>
+                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player2_btn "
+                                class="btn btn-primary"> Select
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-3">
+
+                    <div class="card bg-dark text-light border" style="width: 12rem;">
+                        <img src="image/Neymar_3137132.jpg" class="card-img-top neymar" alt="...">
+                        <div class="card-body">
+                            <h5 id="Neymar" class="card-title">Neymar js</h5>
+                            <p>Brazil</p>
+                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player3_btn "
+                                class="btn btn-primary"> Select
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-3">
+                    <div class="bg-dark p-4" style="width: 14rem;">
+                        <h4 class="py-2 text-light">select 5 player</h4>
+                        <ol id="ol-list" class=" list-group text-light">
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="mt-5">
+            <div class="d-flex">
+                <div class=mx-3>
+                    <div class="card bg-dark text-light border" style="width: 12rem;">
+                        <img src="image/th.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 id="mbappe" class="card-title">Kylian Mbappe</h5>
+                            <p>France</p>
+                            <a style="padding-left: 30px ;padding-right:30px" id="player4_btn " href="#"
+                                class="btn btn-primary"> Select
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mx-3">
+                    <div class="card bg-dark text-light border" style="width: 12rem;">
+                        <img src="image/th (2).jpg" class="card-img-top messi_height" alt="...">
+                        <div class="card-body">
+                            <h5 id="mane" class="card-title">Sadio Mane</h5>
+                            <p>Senegal</p>
+                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player5_btn "
+                                class="btn btn-primary"> Select
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-3">
+                    <div class="card bg-dark text-light border" style="width: 12rem;">
+                        <img src="image/th (1).jpg" class="card-img-top neymar" alt="...">
+                        <div class="card-body">
+                            <h5 id="salah" class="card-title">MD Salah</h5>
+                            <p>Egeypt</p>
+                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player6_btn "
+                                class="btn btn-primary"> Select
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-3">
+                    <div class="" style="width: 14rem;">
+                        <h4 class="py-2 text-center text-white">Budget</h4>
+                        <div class="border rounded-1 p-3">
+                            <b class="text-white"> per player</b><input class="perPlayer bg-dark text-white"
+                                type="text">
+                            <button type="button" class="btn btn-primary calculate">calculate</button>
+                            <b class="text-white">Player Expenses: $ <span>00</span></b>
+                            <b class="text-white">Manager</b><input class="perPlayer bg-dark text-white mt-3 manager"
+                                type="text"><br>
+                            <b class="text-white">Coach</b><input class="perPlayer bg-dark text-white mt-3 coach"
+                                type="text">
+                            <button type="button" class="btn btn-primary calculate">Total calculate</button>
+                            <b class="text-white">Total: <span class="total">$</span> <span
+                                    class="total_value">00</span>
+                            </b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
     <script src="script.js"></script>
+    <footer class="footer">
+        <p class="text-center text-light">Copyright @ 2022 All Rights Reserved.</p>
+    </footer>
 </body>
 
 </html>
