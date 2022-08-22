@@ -29,10 +29,10 @@
                         <div class="card-body">
                             <h5 id="ronaldo" class="card-title">cristiano Ronaldo</h5>
                             <p>Portugal</p>
-                            <a  style="padding-left: 30px ;padding-right:30px" href="#"  id="player1_btn "
+                            <button style="padding-left: 30px ;padding-right:30px" href="#" id="player1_btn "
                                 class=" btn btn-primary">
                                 Select
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -43,9 +43,9 @@
                         <div class="card-body">
                             <h5 id="messi" class="card-title">Leo Messi</h5>
                             <p>Argentina</p>
-                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player2_btn "
+                            <button style="padding-left: 30px ;padding-right:30px" href="#" id="player2_btn "
                                 class="btn btn-primary"> Select
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -56,9 +56,9 @@
                         <div class="card-body">
                             <h5 id="Neymar" class="card-title">Neymar js</h5>
                             <p>Brazil</p>
-                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player3_btn "
+                            <button style="padding-left: 30px ;padding-right:30px" href="#" id="player3_btn "
                                 class="btn btn-primary"> Select
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -84,9 +84,9 @@
                         <div class="card-body">
                             <h5 id="mbappe" class="card-title">Kylian Mbappe</h5>
                             <p>France</p>
-                            <a style="padding-left: 30px ;padding-right:30px" id="player4_btn " href="#"
+                            <button style="padding-left: 30px ;padding-right:30px" id="player4_btn " href="#"
                                 class="btn btn-primary"> Select
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -96,9 +96,9 @@
                         <div class="card-body">
                             <h5 id="mane" class="card-title">Sadio Mane</h5>
                             <p>Senegal</p>
-                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player5_btn "
+                            <button style="padding-left: 30px ;padding-right:30px" href="#" id="player5_btn "
                                 class="btn btn-primary"> Select
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -108,9 +108,9 @@
                         <div class="card-body">
                             <h5 id="salah" class="card-title">MD Salah</h5>
                             <p>Egeypt</p>
-                            <a style="padding-left: 30px ;padding-right:30px" href="#" id="player6_btn "
+                            <button style="padding-left: 30px ;padding-right:30px" href="#" id="player6_btn "
                                 class="btn btn-primary"> Select
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -118,17 +118,19 @@
                     <div class="" style="width: 14rem;">
                         <h4 class="py-2 text-center text-white">Budget</h4>
                         <div class="border rounded-1 p-3">
-                            <b class="text-white"> per player</b><input class="perPlayer bg-dark text-white"
-                                type="text">
-                            <button type="button" class="btn btn-primary calculate">calculate</button>
-                            <b class="text-white">Player Expenses: $ <span>00</span></b>
-                            <b class="text-white">Manager</b><input class="perPlayer bg-dark text-white mt-3 manager"
-                                type="text"><br>
-                            <b class="text-white">Coach</b><input class="perPlayer bg-dark text-white mt-3 coach"
-                                type="text">
-                            <button type="button" class="btn btn-primary calculate">Total calculate</button>
-                            <b class="text-white">Total: <span class="total">$</span> <span
-                                    class="total_value">00</span>
+                            <b class="text-white"> per player</b><input id="perPlayerInput"
+                                class="perPlayer bg-dark text-white" type="text">
+                            <a type="button" id="perPlayer_calculate"
+                                class="btn btn-primary calculate">calculate</a>
+                            <b class="text-white">Player Expenses: $ <span id="player_expense"
+                                    class="expense">00</span></b>
+                            <b class="text-white">Manager</b><input id="manager_input"
+                                class="perPlayer bg-dark text-white mt-3 manager" type="text"><br>
+                            <b class="text-white">Coach</b><input id="coach_input"
+                                class="perPlayer bg-dark text-white mt-3 coach" type="text">
+                            <a type="button" id="total_btn" class="btn btn-primary calculate">Total
+                                calculate</a>
+                            <b class="text-white">Total: <span class="total">$</span> <span id="total_value">00</span>
                             </b>
                         </div>
                     </div>

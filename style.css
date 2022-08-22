@@ -40,7 +40,7 @@
 }
 
 .total {
-    margin-left: 100px;
+    margin-left: 70px;
     color: red
 }
 
@@ -57,3 +57,9 @@
     background: #DEE1E6;
 }
 
+.expense {
+    color: red
+}
+#total_value {
+    color: red
+}
